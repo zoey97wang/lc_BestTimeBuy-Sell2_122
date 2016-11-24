@@ -17,8 +17,8 @@ public class BestTimeBuy2_122 {
 		{
 			if(prices[i]>min){
 				total = total + prices[i] - min;
-				min = prices[i];
 			}
+			min = prices[i];
 		}
 		return total;
     }
